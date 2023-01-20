@@ -1,0 +1,55 @@
+.main{
+  background-color: #9c9cd2fc;
+}
+header{
+  height: 70px;
+  align-items: center;
+  box-shadow: 0 0 10px #616181ce;
+}
+header>*{
+  font-size: 30px;
+  color:#44445d ;
+}
+.list{
+  height: 90vh;
+  overflow-y:scroll ;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.list li{
+ min-height:65px;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.editor{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #707098e4;
+}
+.editor div{
+  background-color: #59596be4;
+  border-radius: 14px;
+  box-shadow: 0 0 10px #494961ce;
+}
+.editor input{
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #44445d;
+  outline: none;
+  color: white;
+}
+.editor button{
+  border: none;
+  color: white;
+  background-color: #44445d;padding: 5px;
+  border-radius: 5px;
+}

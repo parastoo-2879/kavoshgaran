@@ -1,0 +1,27 @@
+.login{
+  height: 100vh;
+  background-color:#9c9cd2fc ;
+}
+.login form{
+  background-color: #9c9cd2ce;
+  border-radius: 14px;
+  box-shadow: 0 0 10px #616181ce;
+} 
+.login input{
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid #616181;
+}
+
+.login button {
+  width: 45%;
+  border: none;
+  background-color: #7a7aa8;
+  border-radius: 5px;
+}
+.login a {
+  text-decoration: none;
+  color: black;
+}
